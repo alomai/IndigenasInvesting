@@ -1,10 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Button } from '@/components/ui/button';
-import { ChevronLeft, ChevronRight, User } from 'lucide-react';
+import { User, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
-import { ArrowLeft, ArrowRight } from 'lucide-react'; 
 
 export default function TestimonialSection() {
   const t = useTranslations('testimonials');
@@ -40,17 +38,16 @@ export default function TestimonialSection() {
               onClick={prevTestimonial}
               aria-label="Previous testimonial"
               className="absolute left-0 top-1/2 -translate-y-1/2
-             w-12 h-12 rounded-full bg-white border border-black 
-             flex items-center justify-center ml-2
-             hover:bg-black transition-colors duration-300"
+                         w-12 h-12 rounded-full bg-white border border-black 
+                         flex items-center justify-center ml-2
+                         hover:bg-black transition-colors duration-300"
             >
-          <ArrowLeft className="h-5 w-5 text-black hover:text-white transition-colors duration-300" />
-        </button>
-
+              <ArrowLeft className="h-5 w-5 text-black hover:text-white transition-colors duration-300" />
+            </button>
 
             <div className="space-y-8">
               <blockquote className="text-2xl md:text-3xl font-medium text-gray-900 leading-relaxed">
-                "{testimonials[currentIndex].quote}"
+                &quot;{testimonials[currentIndex].quote}&quot;
               </blockquote>
 
               <div className="flex flex-col items-center space-y-4">
@@ -64,17 +61,16 @@ export default function TestimonialSection() {
               </div>
             </div>
 
-           <button
-  onClick={nextTestimonial}
-  aria-label="Next testimonial"
-  className="absolute right-0 top-1/2 -translate-y-1/2  
-             w-12 h-12 rounded-full bg-white border border-black 
-             flex items-center justify-center mr-2
-             hover:bg-black transition-colors duration-300"
->
-  <ArrowRight className="h-5 w-5 text-black hover:text-white transition-colors duration-300" />
-</button>
-
+            <button
+              onClick={nextTestimonial}
+              aria-label="Next testimonial"
+              className="absolute right-0 top-1/2 -translate-y-1/2  
+                         w-12 h-12 rounded-full bg-white border border-black 
+                         flex items-center justify-center mr-2
+                         hover:bg-black transition-colors duration-300"
+            >
+              <ArrowRight className="h-5 w-5 text-black hover:text-white transition-colors duration-300" />
+            </button>
           </div>
 
           <div className="flex justify-center space-x-2 mt-8">

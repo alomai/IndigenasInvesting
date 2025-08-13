@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function FeaturesSection() {
   return (
     <section className="bg-white py-20 px-6 md:px-12">
@@ -13,11 +15,14 @@ export default function FeaturesSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-stretch">
           {/* Card 1 */}
           <div className="flex flex-col h-full text-center items-center">
-            <img
-              src="/features/for-rent.jpg"
-              alt="Empower investments"
-              className="w-[400px] h-[280px] object-cover mb-6 shadow-md"
-            />
+            <Image
+  src="/features/for-rent.jpg"
+  alt="Empower investments"
+  width={400}
+  height={280}
+  className="object-cover mb-6 shadow-md"
+/>
+
             <h3 className="text-xl md:text-2xl font-semibold mb-4 font-sans">
               Empower your investments and support local businesses in Puerto Rico.
             </h3>
@@ -34,11 +39,13 @@ export default function FeaturesSection() {
 
           {/* Card 2 */}
           <div className="flex flex-col h-full text-center items-center">
-            <img
-              src="/features/education.jpg"
-              alt="Education resources"
-              className="w-[400px] h-[280px] object-cover mb-6 shadow-md"
-            />
+            <Image
+  src="/features/education.jpg"
+  alt="Education resources"
+  width={400}
+  height={280}
+  className="object-cover mb-6 shadow-md"
+/>
             <h3 className="text-xl md:text-2xl font-semibold mb-4 font-sans">
               Gain financial knowledge with our tailored educational resources for investors.
             </h3>
@@ -55,11 +62,13 @@ export default function FeaturesSection() {
 
           {/* Card 3 */}
           <div className="flex flex-col h-full text-center items-center">
-            <img
-              src="/features/financial-report.jpg"
-              alt="Track impact"
-              className="w-[400px] h-[280px] object-cover mb-6 shadow-md"
-            />
+            <Image
+  src="/features/financial-report.jpg"
+  alt="Track impact"
+  width={400}
+  height={280}
+  className="object-cover mb-6 shadow-md"
+/>
             <h3 className="text-xl md:text-2xl font-semibold mb-4 font-sans">
               Track your impact with transparent reporting on financial outcomes.
             </h3>

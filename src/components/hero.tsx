@@ -1,7 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { motion, Variants } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -66,21 +67,27 @@ export default function Hero() {
         </div>
 
         {/* Right - Image */}
-        <div className="w-1/2 h-full">
-          <img
+        <div className="relative w-1/2 h-full">
+          <Image
             src="/hero/puerto-rico-hero.jpg"
             alt="Beautiful mountains of Puerto Rico"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            priority
           />
         </div>
       </section>
 
       {/* Mobile Hero */}
       <section className="flex md:hidden relative min-h-screen">
-        <img
+        <Image
           src="/hero/puerto-rico-hero.jpg"
           alt="Beautiful mountains of Puerto Rico"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
         />
         <div className="absolute inset-0 bg-white opacity-50"></div>
 
