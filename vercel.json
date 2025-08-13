@@ -1,0 +1,8 @@
+{ 
+    "version": 3,
+    "framework": "nextjs",
+    "rewrites": [
+        { "source": "/(.*)",
+ "destination": "/" }
+    ]
+}

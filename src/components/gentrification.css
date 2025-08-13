@@ -1,0 +1,107 @@
+.gentrification-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+}
+
+
+/* Light white overlay to reduce darkness */
+.gentrification-lighten {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.005); /* change 0.1 to 0.15 or 0.2 if still too dark */
+  z-index: 1;
+}
+
+.gentrification {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ⬇️ Force content above background + overlay */
+.gentrification-overlay,
+.gentrification-content {
+  position: relative;
+  z-index: 10;
+}
+
+.gentrification-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: none;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.gentrification-overlay {
+  position: relative;
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-left, .g-right {
+  flex: 1;
+}
+
+.gentrification-content h2,
+.gentrification-content p {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.g-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+.gentrification-popup {
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 320px;
+  font-family: serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  z-index: 20;
+  user-select: none;
+  pointer-events: none; /* prevent popup from blocking mouse */
+}
+
+.desktop-popup {
+  top: -120px; /* above the word */
+  left: 120%; /* slightly to the right side */
+  white-space: normal;
+}

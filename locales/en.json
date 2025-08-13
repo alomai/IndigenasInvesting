@@ -1,0 +1,194 @@
+{
+  "header": {
+    "mission": "Our Mission",
+    "start": "Get Started",
+    "explore": "Explore More",
+    "login": "Login"
+  },
+  "hero": {
+    "title": {
+      "line1": "Your Money Has Power.",
+      "line2": "Use it to Build the Puerto Rico We All Deserve."
+    },
+    "description": "Join Indígenas in transforming Puerto Rico's economy through community-driven investments. Discover how your small contributions can create lasting impact and foster local growth.",
+    "buttons": {
+      "explore": "Explore",
+      "learnMore": "Learn More"
+    }
+  },
+  "gentrification": {
+    "title": {
+      "line1": "Gentrification is pushing us out.",
+      "line2": "Indígenas is pushing back"
+    },
+    "description": "Gentrification has deeply impacted Puerto Rico, driving up real estate prices and displacing locals. This trend threatens not only our neighborhoods but also the rich cultural heritage that defines our island.",
+    "buttons": {
+      "learn": "Learn",
+      "join": "Join"
+    }
+  },
+  "callToAction": {
+    "heading": "Join the Investment Revolution",
+    "subheading": "Start investing in local businesses and empower your community today with Indígenas.",
+    "signUp": "Sign Up",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "logo": "Logo",
+    "nav": {
+      "about": "About Us",
+      "invest": "Invest Now",
+      "impact": "Our Impact",
+      "start": "Get Started",
+      "contact": "Contact Us"
+    },
+    "copyright": "© 2025 Indígenas. All rights reserved.",
+    "policies": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookie Policy"
+    }
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "We'd love to hear from you!",
+    "email": {
+      "title": "Email",
+      "description": "Reach out via email for any inquiries or support.",
+      "address": "email@example.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "description": "Call us directly for immediate assistance.",
+      "number": "+1 (555) 000-0000"
+    },
+    "office": {
+      "title": "Office",
+      "description": "Visit us at our office location.",
+      "address": "123 Sample St, Sydney NSW 2000 AU"
+    },
+    "title": "Contact Us",
+    "subtitle": "We’d love to hear from you"
+  },
+  "investmentJourney": {
+    "title": "Your Investment Journey Starts Here",
+    "description": "Start your investment journey in Puerto Rico.",
+    "steps": [
+      {
+        "title": "Learn",
+        "description": "Understand the community and business landscape in Puerto Rico."
+      },
+      {
+        "title": "Invest",
+        "description": "Support local entrepreneurs and businesses through micro-investments."
+      },
+      {
+        "title": "Thrive",
+        "description": "Watch your community grow while building shared prosperity."
+      }
+    ],
+    "step1": {
+      "title": "Step 1: Learn",
+      "description": "Understand the benefits and requirements."
+    },
+    "step2": {
+      "title": "Step 2: Plan",
+      "description": "Create your relocation or investment strategy."
+    },
+    "step3": {
+      "title": "Step 3: Execute",
+      "description": "Put your plan into action with confidence."
+    },
+    "primaryCta": "Start Now",
+    "secondaryCta": "Learn More"
+  },
+  "communityHero": {
+    "heading": "For the People, By the People",
+    "subheading": "Empowering Puerto Rican communities to reclaim economic agency and build generational wealth."
+  },
+  "communityFeatures": {
+    "title": "Why Indígenas?",
+    "features": [
+      {
+        "title": "Local Impact",
+        "description": "All investments go directly to community-led projects."
+      },
+      {
+        "title": "Transparent Process",
+        "description": "Track where your money goes and the difference it makes."
+      },
+      {
+        "title": "Cultural Preservation",
+        "description": "Help preserve Puerto Rico’s identity by investing in its people."
+      }
+    ],
+    "card1": {
+      "title": "Community Support",
+      "description": "Get help from a growing network of locals and expats.",
+      "cta": "Join the community"
+    },
+    "card2": {
+      "title": "Events",
+      "description": "Attend curated events and meet like-minded people.",
+      "cta": "See events"
+    },
+    "card3": {
+      "title": "Resources",
+      "description": "Access guides and tools for your journey.",
+      "cta": "Browse resources"
+    }
+  },
+  "pricing": {
+    "heading": "Our Plans",
+    "subheading": "Choose the best fit for you",
+    "button": "Get Started",
+    "starter": {
+      "title": "Starter",
+      "price": "$5/mo",
+      "features": [
+        "Access to investment opportunities",
+        "Monthly impact reports",
+        "Community newsletter"
+      ],
+      "name": "Starter",
+      "description": "Basic features to get started",
+      "range": "$0 - $50"
+    },
+    "builder": {
+      "title": "Builder",
+      "price": "$15/mo",
+      "features": [
+        "All Starter features",
+        "Voting rights on projects",
+        "Access to community events"
+      ],
+      "name": "Builder",
+      "description": "For growing teams",
+      "range": "$50 - $200"
+    },
+    "changemaker": {
+      "title": "Changemaker",
+      "price": "$50/mo",
+      "features": [
+        "All Builder features",
+        "Personalized impact tracking",
+        "Early access to new projects"
+      ],
+      "name": "Changemaker",
+      "description": "Advanced features for change leaders",
+      "range": "$200+"
+    }
+  },
+   "testimonials": {
+    "1": {
+      "quote": "This platform gave me hope for a better Puerto Rico.",
+      "name": "María Rivera",
+      "title": "Community Organizer"
+    },
+    "2": {
+      "quote": "Investing with Indígenas means investing in our people.",
+      "name": "José Martínez",
+      "title": "Small Business Owner"
+    }
+  }
+}

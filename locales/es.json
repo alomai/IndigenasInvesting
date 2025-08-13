@@ -1,0 +1,194 @@
+{
+  "header": {
+    "mission": "Nuestra Misión",
+    "start": "Empezar",
+    "explore": "Explorar Más",
+    "login": "Iniciar Sesión"
+  },
+  "hero": {
+    "title": {
+      "line1": "Tu Dinero Tiene Poder.",
+      "line2": "Úsalo para Construir el Puerto Rico que Todos Merecemos."
+    },
+    "description": "Únete a Indígenas para transformar la economía de Puerto Rico a través de inversiones impulsadas por la comunidad. Descubre cómo tus pequeñas contribuciones pueden crear un impacto duradero y fomentar el crecimiento local.",
+    "buttons": {
+      "explore": "Explorar",
+      "learnMore": "Saber Más"
+    }
+  },
+  "gentrification": {
+    "title": {
+      "line1": "La gentrificación nos está expulsando.",
+      "line2": "Indígenas está luchando"
+    },
+    "description": "La gentrificación ha impactado profundamente a Puerto Rico, aumentando los precios de bienes raíces y desplazando a los locales. Esta tendencia amenaza no solo nuestros vecindarios sino también la rica herencia cultural que define nuestra isla.",
+    "buttons": {
+      "learn": "Aprender",
+      "join": "Unirse"
+    }
+  },
+  "callToAction": {
+    "heading": "Únete a la Revolución de Inversión",
+    "subheading": "Comienza a invertir en negocios locales y empodera tu comunidad hoy con Indígenas.",
+    "signUp": "Registrarse",
+    "learnMore": "Saber Más"
+  },
+  "footer": {
+    "logo": "Logo",
+    "nav": {
+      "about": "Sobre Nosotros",
+      "invest": "Invertir Ahora",
+      "impact": "Nuestro Impacto",
+      "start": "Empezar",
+      "contact": "Contáctanos"
+    },
+    "copyright": "© 2025 Indígenas. Todos los derechos reservados.",
+    "policies": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "cookies": "Política de Cookies"
+    }
+  },
+  "contact": {
+    "heading": "Ponte en Contacto",
+    "subheading": "¡Nos encantaría saber de ti!",
+    "email": {
+      "title": "Correo",
+      "description": "Contáctanos por correo para cualquier consulta o soporte.",
+      "address": "email@ejemplo.com"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "description": "Llámanos directamente para asistencia inmediata.",
+      "number": "+1 (555) 000-0000"
+    },
+    "office": {
+      "title": "Oficina",
+      "description": "Visítanos en nuestra ubicación de oficina.",
+      "address": "123 Calle Ejemplo, San Juan PR 00901"
+    },
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti"
+  },
+  "investmentJourney": {
+    "title": "Tu Viaje de Inversión Comienza Aquí",
+    "description": "Comienza tu viaje de inversión en Puerto Rico.",
+    "steps": [
+      {
+        "title": "Aprender",
+        "description": "Comprende la comunidad y el panorama empresarial en Puerto Rico."
+      },
+      {
+        "title": "Invertir",
+        "description": "Apoya a emprendedores y negocios locales a través de micro-inversiones."
+      },
+      {
+        "title": "Prosperar",
+        "description": "Observa cómo crece tu comunidad mientras construyes prosperidad compartida."
+      }
+    ],
+    "step1": {
+      "title": "Paso 1: Aprender",
+      "description": "Comprende los beneficios y requisitos."
+    },
+    "step2": {
+      "title": "Paso 2: Planificar",
+      "description": "Crea tu estrategia de reubicación o inversión."
+    },
+    "step3": {
+      "title": "Paso 3: Ejecutar",
+      "description": "Pon tu plan en acción con confianza."
+    },
+    "primaryCta": "Empezar Ahora",
+    "secondaryCta": "Saber Más"
+  },
+  "communityHero": {
+    "heading": "Para la Gente, Por la Gente",
+    "subheading": "Empoderando a las comunidades puertorriqueñas para reclamar la agencia económica y construir riqueza generacional."
+  },
+  "communityFeatures": {
+    "title": "¿Por qué Indígenas?",
+    "features": [
+      {
+        "title": "Impacto Local",
+        "description": "Todas las inversiones van directamente a proyectos liderados por la comunidad."
+      },
+      {
+        "title": "Proceso Transparente",
+        "description": "Rastrea dónde va tu dinero y la diferencia que hace."
+      },
+      {
+        "title": "Preservación Cultural",
+        "description": "Ayuda a preservar la identidad de Puerto Rico invirtiendo en su gente."
+      }
+    ],
+    "card1": {
+      "title": "Apoyo Comunitario",
+      "description": "Obtén ayuda de una red creciente de locales y expatriados.",
+      "cta": "Únete a la comunidad"
+    },
+    "card2": {
+      "title": "Eventos",
+      "description": "Asiste a eventos curados y conoce personas afines.",
+      "cta": "Ver eventos"
+    },
+    "card3": {
+      "title": "Recursos",
+      "description": "Accede a guías y herramientas para tu viaje.",
+      "cta": "Explorar recursos"
+    }
+  },
+  "pricing": {
+    "heading": "Nuestros Planes",
+    "subheading": "Elige el que mejor se adapte a ti",
+    "button": "Empezar",
+    "starter": {
+      "title": "Principiante",
+      "price": "$5/mes",
+      "features": [
+        "Acceso a oportunidades de inversión",
+        "Reportes mensuales de impacto",
+        "Boletín comunitario"
+      ],
+      "name": "Principiante",
+      "description": "Funciones básicas para empezar",
+      "range": "$0 - $50"
+    },
+    "builder": {
+      "title": "Constructor",
+      "price": "$15/mes",
+      "features": [
+        "Todas las funciones de Principiante",
+        "Derechos de voto en proyectos",
+        "Acceso a eventos comunitarios"
+      ],
+      "name": "Constructor",
+      "description": "Para equipos en crecimiento",
+      "range": "$50 - $200"
+    },
+    "changemaker": {
+      "title": "Agente de Cambio",
+      "price": "$50/mes",
+      "features": [
+        "Todas las funciones de Constructor",
+        "Seguimiento personalizado de impacto",
+        "Acceso temprano a nuevos proyectos"
+      ],
+      "name": "Agente de Cambio",
+      "description": "Funciones avanzadas para líderes de cambio",
+      "range": "$200+"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "quote": "Esta plataforma me dio esperanza para un Puerto Rico mejor.",
+      "name": "María Rivera",
+      "title": "Organizadora Comunitaria"
+    },
+    "2": {
+      "quote": "Invertir con Indígenas significa invertir en nuestra gente.",
+      "name": "José Martínez",
+      "title": "Propietario de Pequeño Negocio"
+    }
+  }
+}
