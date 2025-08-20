@@ -1,4 +1,31 @@
+# Dependencies
 node_modules/
+
+# Next.js build output
 .next/
+<<<<<<< HEAD
 node_modules/
 node_modules/
+=======
+out/
+
+# Vercel build folder
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# MacOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+>>>>>>> d44ad942 (Add .gitignore for Next.js and Vercel)
