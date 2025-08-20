@@ -1,8 +1,10 @@
 'use client';
 
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function ContactSection() {
+  const t = useTranslations('contact');
 
   return (
     <section
@@ -15,7 +17,7 @@ export default function ContactSection() {
           <h2 className="text-5xl md:text-5xl font-bold mb-4">
   Get in Touch
           </h2>
-          <p className="text-lg text-white">We&apos;d love to hear from you</p>
+          <p className="text-lg text-white">We'd love to hear from you</p>
         </div>
 
         {/* Contact info grid */}

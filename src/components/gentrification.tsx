@@ -1,6 +1,6 @@
 'use client';
 
-import './gentrification.css';
+import './Gentrification.css';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 
