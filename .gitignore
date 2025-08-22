@@ -3,10 +3,10 @@ node_modules/
 
 # Next.js build output
 .next/
-<<<<<<< HEAD
+
 node_modules/
 node_modules/
-=======
+
 out/
 
 # Vercel build folder
@@ -28,4 +28,3 @@ pnpm-debug.log*
 
 # VSCode settings
 .vscode/
->>>>>>> d44ad942 (Add .gitignore for Next.js and Vercel)
